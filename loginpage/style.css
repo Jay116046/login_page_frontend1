@@ -1,0 +1,68 @@
+body {
+    background-image: url("1.jpg");
+    background-size: cover;
+
+}
+
+.container {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    height: 300px;
+    width: 350px;
+    background-color:transparent;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-top: 65px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    display: none;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.textbox {
+    background-color: transparent;
+    border: 3px solid rgba(0, 0, 0, 0.697);
+    border-radius: 20px;
+    width: 60%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.btn {
+    font-size: larger;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: transparent;
+    display: inline-block;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);}
+
+@keyframes card_animation {
+    0% {
+        scale: 0;
+        opacity: 0;
+    }
+    50% {
+        scale: .5;
+        opacity: 0.5;
+    }
+    100% {
+        scale: 1;
+        opacity: 1;
+    }  
+}
